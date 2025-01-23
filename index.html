@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>البسيوني للطب النفسي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- رأس الصفحة -->
+    <header>
+        <div class="container">
+            <div class="logo">البسيوني</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#services">خدماتنا</a></li>
+                    <li><a href="#booking">حجز</a></li>
+                </ul>
+            </nav>
+            <div class="menu-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- محتوى الصفحة -->
+    <main>
+        <!-- القسم الأول: البطاقة الرئيسية -->
+        <section id="home" class="hero">
+            <h1>مرحبًا بك في موقعنا</h1>
+            <p>نوفر جلسات علاج نفسي لمساعدتك على تحقيق التوازن النفسي.</p>
+            <a href="#booking" class="cta-button">احجز الأن</a>
+        </section>
+
+        <!-- القسم الثاني: من نحن -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>من نحن</h2>
+                <p>د. البسيوني متخصص في العلاج النفسي بخبرة تزيد عن 10 سنوات، وهدفه مساعدتك على تحقيق السعادة والتوازن النفسي.</p>
+                <img src="about-image.jpg" alt="من نحن">
+            </div>
+        </section>
+
+        <!-- القسم الثالث: خدماتنا -->
+        <section id="services" class="services">
+            <h2>خدماتنا</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>الجلاسات</h3>
+                    <p>نقدم أفضل الجلاسات للعلاج النفسي والأدمان</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>استشارات</h3>
+                    <p>يمكنك استشاره الدكتور في كثير من المشكلات</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h3>نصائح</h3>
+                    <p>نقدم نصائح حول الصحه وحل المشاكلات</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- القسم الرابع: اتصل بنا -->
+
+        <section id="booking">
+            <h2>حجز موعد</h2>
+            <form id="booking-form">
+                <label for="name">الاسم الكامل:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">رقم الهاتف:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="date">تاريخ الموعد:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="time">وقت الموعد:</label>
+                <select id="time" name="time" required>
+                    <option value="morning">صباحًا</option>
+                    <option value="afternoon">ظهرًا</option>
+                    <option value="evening">مساءً</option>
+                </select>
+    
+                <label for="type">نوع الجلسة:</label>
+                <select id="type" name="type" required>
+                    <option value="individual">فردية</option>
+                    <option value="group">جماعية</option>
+                    <option value="online">أونلاين</option>
+                </select>
+    
+                <button type="submit">إرسال الطلب</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- التذييل -->
+    <footer>
+        <p>جميع الحقوق محفوظة © 2025</p>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
